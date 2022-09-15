@@ -1,0 +1,122 @@
+.nav {
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2.98px 7.4564px rgba(0,0,0,0.1);
+    background-color:azure;
+    border: 3px solid black;
+    border-bottom: none;
+}
+
+.nav-items {
+    margin-right: 3%;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+}
+
+.header-infos {
+    display: flex;
+    gap: 1rem;
+    font-weight: bolder;
+    align-items: center;
+    margin-right: auto;
+}
+
+.company-name {
+    font-size: 30px;
+    color: black;
+}
+
+.nav-logo {
+    width: 90px;
+    height: 40px;
+    margin-top: -10px;
+    margin-left: 15px;
+}
+
+.main-title {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 50px;
+    margin: 0px 20px;
+    padding-top: 30px;
+    color: white;
+}
+
+.main {
+    padding-bottom: 40px;
+    color: white;
+    background-color: #798186;
+    background-image: url("./images/obss.png");
+    background-repeat: no-repeat;
+    background-size: 390px;
+    background-position: 96% 50%;
+}
+
+.main-list > li {
+    line-height: 25px;
+}
+
+.main-list > li::marker {
+    font-size: 1.4rem;
+    color: black;
+}
+
+.footer {
+    background-color: #ccebff;
+    padding: 1px 10px;
+    color: black;
+}
+
+.travel-header {
+    height: 50px;
+    background-color: #ff3333;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.travel-infos {
+    display: flex;
+    gap: 0.1rem;
+    align-items:center;
+    justify-content: center;
+}
+
+.travel-info {
+    color: white;
+    margin: 10px;
+}
+
+.travel-card {
+    display: flex;
+    height: 180px;
+    width: 600px;
+    margin: 20px;
+}
+.travel-img {
+    max-width: 270px;
+    height: auto;
+    margin-right: 12px;
+    border-radius: 1rem;
+}
+
+.main-informations {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.location-link:link {
+    color: gray;
+}
+.location-link:visited {
+    color: black;
+}
+.location-header {
+    margin: 0px;
+}
+.exp {
+    margin-top: 0px;
+}
